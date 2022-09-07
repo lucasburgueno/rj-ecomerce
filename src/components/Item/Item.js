@@ -1,4 +1,5 @@
 import React from 'react'
+import { Count } from '../count/Count'
 import "./Item.css"
 
 const Item = ({producto}) => {
@@ -10,6 +11,7 @@ const Item = ({producto}) => {
         <small>stock disponible: {producto.stock}</small>
         <p>{producto.desc}</p>
         <a className='btn btn-primary my-2'>Ver mas</a>
+        <Count/>
     </div>
   )
 }

@@ -1,6 +1,5 @@
 import React from 'react'
 import menu from "../../imagenes/menu-hamb.png"
-import cart from "../../imagenes/cart-icon.png"
 import "./Navbar.css"
 
 
