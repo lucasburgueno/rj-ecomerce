@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Count } from '../count/Count'
 import "./Item.css"
 
@@ -10,7 +11,7 @@ const Item = ({producto}) => {
         <p>precio: ${producto.precio}</p>
         <small>stock disponible: {producto.stock}</small>
         <p>{producto.desc}</p>
-        <a className='btn btn-primary my-2'>Ver mas</a>
+        <Link to={`/item/${producto.id}`} className='btn btn-primary my-2'>Ver mas</Link>
         <Count/>
     </div>
   )

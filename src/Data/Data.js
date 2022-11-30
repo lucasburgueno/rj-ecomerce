@@ -6,7 +6,23 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                             precio:1000,
                                             img:"https://via.placeholder.com/250",
                                             stock:50,
-                                            desc:"un gran producto"
+                                            desc:"un gran producto",
+                                            category:"remeras",
+                                            options:[
+                                                {
+                                                value: "L",
+                                                text: "Large"
+                                                },
+                                                {
+                                                value: "XL",
+                                                text: "Extra Large"
+                                                },
+                                                {
+                                                value: "XXL",
+                                                text: "Extra Extra Large"
+                                                }
+                                            ]
+                                            
                                         },
                                         {
                                             id:2,
@@ -14,7 +30,22 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                             precio:1000,
                                             img:"https://via.placeholder.com/250",
                                             stock:50,
-                                            desc:"un gran producto"
+                                            desc:"un gran producto",
+                                            category:"remeras",
+                                            options:[
+                                                {
+                                                value: "L",
+                                                text: "Large"
+                                                },
+                                                {
+                                                value: "XL",
+                                                text: "Extra Large"
+                                                },
+                                                {
+                                                value: "XXL",
+                                                text: "Extra Extra Large"
+                                                }
+                                            ]
                                         },
                                         {
                                             id:3,
@@ -22,7 +53,22 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                             precio:1000,
                                             img:"https://via.placeholder.com/250",
                                             stock:50,
-                                            desc:"un gran producto"
+                                            desc:"un gran producto",
+                                            category:"buzos",
+                                            options:[
+                                                {
+                                                value: "L",
+                                                text: "Large"
+                                                },
+                                                {
+                                                value: "XL",
+                                                text: "Extra Large"
+                                                },
+                                                {
+                                                value: "XXL",
+                                                text: "Extra Extra Large"
+                                                }
+                                            ]
                                         },
                                         {
                                             id:4,
@@ -30,7 +76,22 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                             precio:1000,
                                             img:"https://via.placeholder.com/250",
                                             stock:50,
-                                            desc:"un gran producto"
+                                            desc:"un gran producto",
+                                            category:"remeras",
+                                            options:[
+                                                {
+                                                value: "L",
+                                                text: "Large"
+                                                },
+                                                {
+                                                value: "XL",
+                                                text: "Extra Large"
+                                                },
+                                                {
+                                                value: "XXL",
+                                                text: "Extra Extra Large"
+                                                }
+                                            ]
                                         },
                                         {
                                             id:5,
@@ -38,7 +99,22 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                             precio:1000,
                                             img:"https://via.placeholder.com/250",
                                             stock:50,
-                                            desc:"un gran producto"
+                                            desc:"un gran producto",
+                                            category:"buzos",
+                                            options:[
+                                                {
+                                                value: "L",
+                                                text: "Large"
+                                                },
+                                                {
+                                                value: "XL",
+                                                text: "Extra Large"
+                                                },
+                                                {
+                                                value: "XXL",
+                                                text: "Extra Extra Large"
+                                                }
+                                            ]
                                         }
                                     ]
 

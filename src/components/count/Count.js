@@ -2,26 +2,30 @@ import React from 'react'
 import "./Count.css"
 import {useState} from "react"
 
-export const Count = () => {
+export const Count = ({max, counter,setCounter, handleAgregar}) => {
 
-        let [counter,setCounter] = useState(0)
-
-
-    const sumar =()=>{
-        setCounter(counter + 1)
-    }
-    const restar =()=>{
-        if (counter > 0){
-            setCounter(counter -1)
+        const handleSumar = () =>{
+            if (counter < max){
+                setCounter(counter + 1 )
+            }
         }
-    }
+
+        const handleRestar = () =>{
+            if (counter > 1){
+                setCounter(counter - 1 )
+            }
+        }
+
 
 
   return (
     <div>
-        <button onClick={restar} className='btn btn-outline-primary'>-</button>
+        <button onClick={handleRestar} className='btn btn-outline-primary'>-</button>
         <span className='mx-2'>{counter}</span>
-        <button onClick={sumar} className='btn btn-primary'>+</button>
+        <button onClick={handleSumar} className='btn btn-primary'>+</button>
+        <br/>
+
+        <button className="btn btn-primary my-2"> Agregar Al Carrito</button>
 
     </div>
   )

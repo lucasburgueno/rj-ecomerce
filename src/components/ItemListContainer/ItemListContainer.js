@@ -1,7 +1,8 @@
 import React from 'react';
 import { useState,useEffect } from 'react'
 import ItemList from '../itemLiis/ItemList';
-import { pedirDatos } from '../../Helpers/PedirDatos';
+import { PedirDatos } from '../../Helpers/PedirDatos';
+import { useParams } from 'react-router-dom';
 
 
 
@@ -10,22 +11,37 @@ import { pedirDatos } from '../../Helpers/PedirDatos';
 const ItemListContainer = () => {
     const[productos,setProductos]=useState([])
 
+    const { categoryId }= useParams()
+    const [loading, setLoading] = useState (true)
+
     useEffect(() => {
-        pedirDatos()
-        .then((res)=>{
-            setProductos(res)
+        setLoading(true)
+        PedirDatos()
+            .then((res)=>{
+                if(!categoryId){
+                    setProductos(res)
+                }else {
+                    setProductos(res.filter((prod)=> prod.category === categoryId))
+                }
         })
         .catch((error)=>{
             console.log(error)
         })
         .finally(()=>{
+            setLoading(false)
         })
-    },[])
+    },[categoryId])
     
 
   return (
             <div>
-                <ItemList productos={productos}/>
+                {
+                    loading
+                    ? <h2>cargando...</h2>
+                    : <ItemList productos={productos}/>
+
+                }
+
             </div>
   );
 }
