@@ -8,7 +8,7 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                             stock:50,
                                             desc:"un gran producto",
                                             category:"remeras",
-                                            options:[
+                                            talles:[
                                                 {
                                                 value: "L",
                                                 text: "Large"
@@ -20,7 +20,7 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                                 {
                                                 value: "XXL",
                                                 text: "Extra Extra Large"
-                                                }
+                                                },
                                             ]
                                             
                                         },
@@ -32,7 +32,7 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                             stock:50,
                                             desc:"un gran producto",
                                             category:"remeras",
-                                            options:[
+                                            talles:[
                                                 {
                                                 value: "L",
                                                 text: "Large"
@@ -44,7 +44,7 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                                 {
                                                 value: "XXL",
                                                 text: "Extra Extra Large"
-                                                }
+                                                },
                                             ]
                                         },
                                         {
@@ -55,7 +55,7 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                             stock:50,
                                             desc:"un gran producto",
                                             category:"buzos",
-                                            options:[
+                                            talles:[
                                                 {
                                                 value: "L",
                                                 text: "Large"
@@ -67,7 +67,7 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                                 {
                                                 value: "XXL",
                                                 text: "Extra Extra Large"
-                                                }
+                                                },
                                             ]
                                         },
                                         {
@@ -78,7 +78,7 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                             stock:50,
                                             desc:"un gran producto",
                                             category:"remeras",
-                                            options:[
+                                            talles:[
                                                 {
                                                 value: "L",
                                                 text: "Large"
@@ -90,7 +90,7 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                                 {
                                                 value: "XXL",
                                                 text: "Extra Extra Large"
-                                                }
+                                                },
                                             ]
                                         },
                                         {
@@ -101,7 +101,7 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                             stock:50,
                                             desc:"un gran producto",
                                             category:"buzos",
-                                            options:[
+                                            talles:[
                                                 {
                                                 value: "L",
                                                 text: "Large"
@@ -113,7 +113,7 @@ import imagen from "../imagenes/buzo-amarillo.jpg"
                                                 {
                                                 value: "XXL",
                                                 text: "Extra Extra Large"
-                                                }
+                                                },
                                             ]
                                         }
                                     ]

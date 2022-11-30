@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Count.css"
-import {useState} from "react"
 
 export const Count = ({max, counter,setCounter, handleAgregar}) => {
 
@@ -25,7 +24,7 @@ export const Count = ({max, counter,setCounter, handleAgregar}) => {
         <button onClick={handleSumar} className='btn btn-primary'>+</button>
         <br/>
 
-        <button className="btn btn-primary my-2"> Agregar Al Carrito</button>
+        <button onClick={handleAgregar} className="btn btn-primary my-2"> Agregar Al Carrito</button>
 
     </div>
   )

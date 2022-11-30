@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-const Select = ({options, onSelect}) => {
+const Select = ({options = [], onSelect}) => {
 
     const handleSelect = (e) => {
         onSelect(e.target.value)
